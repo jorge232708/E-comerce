@@ -362,10 +362,4 @@ El proyecto sigue una estructura modular y organizada para facilitar la comprens
 * **`src/db`**: Contiene la configuración y la lógica de conexión a la base de datos. Incluye el archivo `DataBase.js` (para la conexión con `better-sqlite3`) y `init-db.js` (para la inicialización y creación de tablas de la base de datos).
 * **`src/middleware`**: Almacena funciones middleware que se ejecutan antes de que las solicitudes lleguen a los controladores. Incluye la lógica para la autenticación de usuarios (verificación de tokens JWT), autorización basada en roles (si se implementa) y otras funciones que procesan las solicitudes.
 
-## Ejemplos de Código (Opcional):
 
-Si lo deseas, puedes enriquecer esta documentación incluyendo fragmentos de código relevantes. Esto es particularmente útil para ilustrar:
-
-* Cómo se utiliza un modelo para interactuar con la base de datos.
-* Un ejemplo de un controlador simple.
-* Cómo se aplica un middleware de autenticación a una ruta.
